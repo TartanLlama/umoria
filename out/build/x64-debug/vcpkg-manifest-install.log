@@ -1,0 +1,14 @@
+Fetching registry information from https://github.com/microsoft/vcpkg (HEAD)...
+Detecting compiler hash for triplet x64-windows...
+The following packages will be built and installed:
+    pdcurses:x64-windows -> 3.9#6 -- C:\Users\davidli1\AppData\Local\vcpkg\registries\git-trees\61d47c082b38bc7c50c5b81d730c698dd4cea04f
+Restored 1 package(s) from C:\Users\davidli1\AppData\Local\vcpkg\archives in 343 ms. Use --debug to see more details.
+Installing 1/1 pdcurses:x64-windows...
+Elapsed time to handle pdcurses:x64-windows: 121 ms
+Total install time: 122 ms
+pdcurses provides CMake targets:
+
+    # this is heuristically generated, and may not be correct
+    find_package(unofficial-pdcurses CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE unofficial::pdcurses::pdcurses)
+
