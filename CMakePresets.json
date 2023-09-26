@@ -58,7 +58,7 @@
         "rhs": "Windows"
       },
       "environment": {
-        "CXXFLAGS": "/fsanitize=address /external:W0 /external:anglebrackets /analyze /analyze:external- /analyze:plugin EspXEngine.dll /analyze:ruleset \"C:\\Program Files\\Microsoft Visual Studio\\2022\\IntPreview\\Team Tools\\Static Analysis Tools\\Rule Sets\\CppCoreCheckLifetimeRules.ruleset\"",
+        "CXXFLAGS": "/fsanitize=address /external:W0 /external:anglebrackets /analyze /analyze:external- /analyze:plugin EspXEngine.dll /analyze:ruleset \"C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\Team Tools\\Static Analysis Tools\\Rule Sets\\CppCoreCheckLifetimeRules.ruleset\"",
         "ASAN_OPTIONS": "continue_on_error=1",
         "esp.extensions": "cppcorecheck.dll"
 
