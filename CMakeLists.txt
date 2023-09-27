@@ -195,7 +195,7 @@ set(resources ${data_files} ${support_files})
 # Also add resources to the target so they are visible in the IDE
 add_executable(umoria ${source_files} 
         ${source_dir}/main.cpp ${resources})
-add_executable(fuzz "src/fuzz.cpp" ${source_files} ${resources})
+add_executable(test "src/stress_test.cpp" ${source_files} ${resources})
 
 
 #
@@ -221,4 +221,4 @@ endif ()
 
 include_directories(${CURSES_INCLUDE_DIR})
 target_link_libraries(umoria ${CURSES_LIBRARIES})
-target_link_libraries(fuzz ${CURSES_LIBRARIES})
+target_link_libraries(test ${CURSES_LIBRARIES})
